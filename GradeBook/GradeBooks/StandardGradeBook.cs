@@ -6,6 +6,7 @@
         public StandardGradeBook(string name) : base(name)
         {
 
+            this.Type = Enums.GradeBookType.Standard;
         }
 
     }
